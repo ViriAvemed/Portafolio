@@ -1,0 +1,48 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #eeeeee;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.bg-dark {
+  background-color: #343A40;
+}
+
+.blog .card {
+
+  border-radius: 0;
+  border: 0;
+  background: rgba(255,255,255,0.06);
+
+  transition: background 0.25s;
+  cursor: pointer;
+}
+.blog .card:hover {
+  background: rgba(255,255,255,0.1);
+  transition: background 0.25s;
+}
+
+.blog .card .card-block {
+  padding: 1.1rem;
+  min-height: 160px;
+}
+.blog .card .card-block .category {
+
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  background-color: #40464B;
+  color: #fff;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 12px;
+  width: fit-content;
+  padding: 4px 8px 2px;
+  letter-spacing: 0.06rem;
+}
+.blog .card .card-block .card-title {
+  color: #fff;
+  font-size: 19px;
+  line-height: 1.8rem;
+  margin-bottom: 0.4rem;
+}
